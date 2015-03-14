@@ -1,0 +1,129 @@
+body {
+font-family: Helvetica, Arial, Sans;
+font-size: 75%;
+background: #358182;
+text-align: center;
+}
+#main {
+background: #FFFFFF;
+border: 1px;
+width:  65%;
+height: 100%;
+-moz-box-shadow: 5px 5px 5px  #235657;
+-webkit-box-shadow: 5px 5px 5px  #235657;
+box-shadow: 5px 5px 5px #235657;
+padding: 20px;
+text-align: left;
+margin: auto;
+border-radius: 8px;
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+h1 {
+color: #235657;
+font-family: Oswald, Helvetica, Arial, Sans;
+font-size: 300%;
+text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.20);
+letter-spacing: 0.1em;
+}
+h1, h2 {
+font-variant: small-caps; 
+}
+h2 {
+color: #53B5B4;
+font-size: 190%;
+margin: 5px 10px;
+}
+h3 {
+font-family: Gill Sans, Arial, or sans-serif;
+font-size: 110%;
+text-transform: uppercase;
+letter-spacing: 0.4em;
+font-weight: lighter;
+border-left: 1px solid;
+border-right: 1px solid;
+padding: 0px 5px;
+margin: 5px 10px;
+text-align: center; 
+width: 30%;
+color: #752B78;
+}
+p {
+	text-indent: 1em;
+	line-height: 1.4em;
+	color: #382100;
+	padding: 0px 10px;
+}
+#nav ul li{
+display: inline;
+margin: auto;
+width: 30%;
+}
+#nav ul {
+margin: auto; /* will not center the nav bar ask instructor */
+}
+#phases {
+font-size: 60%;
+}
+.colors table tr td {
+-moz-box-shadow: -5px -5px #777777;
+-webkit-box-shadow: -5px -5px #777777;
+box-shadow: -5px -5px #777777;
+padding: 2em;
+font-size: 120%;
+text-align: center;
+}
+.colors table {
+margin: auto;
+height: 40%;
+border-spacing: 20px;
+}
+.colors table tr {
+margin: 5px;
+}
+/*colors ------- Change to less harsh colors for next assignment */
+#black {
+color: #FFF;
+background-color: #000;
+}
+#white {
+border-width: 1px;
+border-color: #000; /* will not add border ask instructor */
+}
+#blue {
+background-color: #00F;
+color: #FFF;
+}
+#green {
+background-color: #0f0;
+}
+#red {
+background-color: #F00;
+}
+#colorless {
+background-color: #d3d3d3;
+}
+/* unvisited link */
+a:link {
+    color: #752B78;
+}
+
+/* visited link */
+a:visited {
+    color: #968569;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0096EB;
+}
+
+/* selected link */
+a:active {
+    color: #482863;
+}
