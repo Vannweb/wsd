@@ -1,9 +1,10 @@
-body {
+body { /*general styling for the main body as a whole setting a main font and family the size and the background color*/
 	font-family: Helvetica, Arial, Sans;
 	font-size: 75%;
 	background: #358182;
 	text-align: center;
 }
+/*general styling for the main body, using the #class, centers the body, rounds the borders, casts a shadow for easy to read look*/
 #main {
 	background: #FFFFFF;
 	border: 1px;
@@ -17,6 +18,7 @@ body {
 	margin: auto;
 	border-radius: 8px;
 }
+/* Web Font retrieved from google */
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
@@ -24,6 +26,7 @@ body {
   src: local('Oswald Light'), local('Oswald-Light'), url(http://fonts.gstatic.com/s/oswald/v10/HqHm7BVC_nzzTui2lzQTDZBw1xU1rKptJj_0jans920.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
 }
+/* CSS for the level one heading alone */
 h1 {
 	color: #235657;
 	font-family: Oswald, Helvetica, Arial, Sans;
@@ -31,14 +34,17 @@ h1 {
 	text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.20);
 	letter-spacing: 0.1em;
 }
+/*small caps for the level one and two headings*/
 h1, h2 {
 	font-variant: small-caps; 
 }
+/* styling for the level two heading alone */
 h2 {
 	color: #53B5B4;
 	font-size: 190%;
 	margin: 5px 10px;
 }
+/*Styling for the level 3 heading */
 h3 {
 	font-family: Gill Sans, Arial, or sans-serif;
 	font-size: 110%;
@@ -53,23 +59,28 @@ h3 {
 	width: 30%;
 	color: #752B78;
 }
+/*Styling for the paragraphs */
 p {
 	text-indent: 1em;
 	line-height: 1.4em;
 	color: #382100;
 	padding: 0px 10px;
 }
+/*Styling for the navbar by line*/
 #nav ul li{
 	display: inline;
 	margin: auto;
 	width: 30%;
 }
+/*styling for the navbar by list, couldn't get the navbar to center*/
 #nav ul {
 	margin: auto; /* will not center the nav bar ask instructor */
 }
+/*styling for the phases ID, styling for the phases list, must do more with this later, find away to fix floating 4, make more apealing to the eye */
 #phases {
 	font-size: 60%;
 }
+/*Styling for the colors class, styling for the colors tables forming a group of boxes with stylized shadow, ---find a way to make them the all size for the next assignment */
 .colors table tr td {
 	-moz-box-shadow: -5px -5px #777777;
 	-webkit-box-shadow: -5px -5px #777777;
@@ -78,11 +89,13 @@ p {
 	font-size: 120%;
 	text-align: center;
 }
+/*styling for the boxes using the class specifier, makes the boxes horizontal defines how much shape should be between each one*/
 .colors table {
 	margin: auto;
 	height: 40%;
 	border-spacing: 20px;
 }
+/**/
 .colors table tr {
 	margin: 5px;
 }
