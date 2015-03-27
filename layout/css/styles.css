@@ -1,0 +1,39 @@
+body {
+	font-size: 80%;
+	font-family: Arial, Verdana, Sans-serif;
+	letter-spacing: 0.15em;	
+	background-color: #efefef;
+	}
+		
+ul#navigation {
+	list-style-type: none;
+	text-align: center;
+	}
+
+#content img {
+float: left;
+margin: 0px 20px;
+}
+
+h1 {
+font-size: 1.5em;
+}
+
+h2 {
+font-size: 1.33em;
+}
+
+h3 {
+font-size: 1.25em;
+}
+	
+a {
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+	
+a:hover, a#current-page {
+	color: #cc3333;
+	background-color: #ffffff;
+	}
