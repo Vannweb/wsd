@@ -1,4 +1,4 @@
 https://github.com/Vannweb/wsd.git 
 
 
-https://github.com/Vannweb/wsd/blob/gh-pages/WiU%20Landing%20Page%20Template/index.html
+https://github.com/Vannweb/wsd/tree/gh-pages/WiU%20Landing%20Page%20Template/WiU%20Landing%20Page
